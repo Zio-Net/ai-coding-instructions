@@ -1,8 +1,10 @@
 ---
-applyTo: '**/*.cs'
+description: Comprehensive best practices for .NET C# development, focusing on modern features, clean architecture, and maintainability.
+globs: **/*.cs
+alwaysApply: false
 ---
 
-# C# / .NET Coding Instructions
+# .NET C# Development Guidelines
 
 ## Modern C# Features & Syntax
 - **Immutable Records**: Prefer `record` or `record struct` for DTOs, command/query objects, and value objects to ensure immutability and concise syntax.
