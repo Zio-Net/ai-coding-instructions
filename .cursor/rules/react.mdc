@@ -1,8 +1,10 @@
 ---
-applyTo: '**/*.tsx'
+description: Best practices for React development, focusing on React Query, TypeScript, functional components, and clean architecture.
+globs: **/*.tsx, **/*.ts
+alwaysApply: false
 ---
 
-# React / Frontend Coding Instructions
+# React Development Guidelines
 
 ## Component Architecture
 - **Functional Components**: Use functional components with hooks. Avoid class components.
